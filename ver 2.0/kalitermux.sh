@@ -82,9 +82,13 @@ sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katool
 sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh 
 sudo apt-get update -y
 sudo apt install wget -y
-sudo apt install python -y
 sudo apt install python3 -y
-sudo apt --fix-broken install
+sudo apt --fix-broken install -y
+sudo apt --fix-broken install -y
+sudo apt --fix-broken install -y
+sudo apt --fix-broken install -y
+ls
+sleep 15.0
 echo "$p------->$yellow [installation completed] $p<--------"
 echo " "
 sleep 40.10
