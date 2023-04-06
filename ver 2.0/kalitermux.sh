@@ -80,6 +80,7 @@ sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/cat.py
 sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/gear.py 
 sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katoolin.py 
 sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh 
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/tools/uwu.sh
 sudo apt-get update -y
 sudo apt install wget -y
 sudo apt install python3 -y
