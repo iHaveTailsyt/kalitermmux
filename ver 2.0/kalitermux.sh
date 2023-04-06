@@ -143,5 +143,5 @@ source /etc/profile
 vncserver-start
 sleep 15.0
 sudo sh kali.sh
-sudo sh tools.py.sh
+sudo sh tools.sh
 sudo sh uwuin.sh
