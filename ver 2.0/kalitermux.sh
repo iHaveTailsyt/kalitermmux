@@ -76,15 +76,15 @@ clear
 echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/cat.py -y
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/gear.py -y
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katoolin.py -y
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh -y
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/cat.py 
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/gear.py 
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katoolin.py 
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh 
 sudo apt-get update -y
 sudo apt install wget -y
 sudo apt install python -y
 sudo apt install python3 -y
-
+sudo apt --fix-broken install
 echo "$p------->$yellow [installation completed] $p<--------"
 echo " "
 sleep 40.10
