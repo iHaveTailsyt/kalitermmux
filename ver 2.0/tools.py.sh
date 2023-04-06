@@ -23,4 +23,4 @@ echo "$green                   <--[Coded by inferno]-->"
 echo "$cyan                  ************************** "
 echo "$yellow                <--[Staring python tool scripts]--->"
 echo "$red                   ************************************"  
-sudo python katoolin.py                 
+sudo python3 katoolin.py                 

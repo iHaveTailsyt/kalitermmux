@@ -15,7 +15,7 @@ echo " $red
     ██╔═██╗ ██╔══██║██║     ██║██║╚██╔╝██║██║   ██║ ██╔██╗
     ██║  ██╗██║  ██║███████╗██║██║ ╚═╝ ██║╚██████╔╝██╔╝ ██╗
     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-                                                       v 2.0 "
+                                                       v 1.0 "
 
 echo "$yellow                +~+~+~+~+~+~+~+~+~+~+~+~+~ "
 echo "$green                   <--[Coded by inferno]-->"
@@ -76,21 +76,12 @@ clear
 echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/cat.py 
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/gear.py 
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katoolin.py 
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh 
-sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/tools/uwu.sh
-sudo wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh
+
 sudo apt-get update -y
 sudo apt install wget -y
-sudo apt install python3 -y
-sudo apt --fix-broken install -y
-sudo apt --fix-broken install -y
-sudo apt --fix-broken install -y
-sudo apt --fix-broken install -y
-ls
-sleep 15.0
+sudo apt install python -y
+sudo apt install python2 -y
+
 echo "$p------->$yellow [installation completed] $p<--------"
 echo " "
 sleep 40.10
@@ -101,10 +92,10 @@ echo " "
 clear
 echo " "
 sleep 20.0
-sudo apt-get update
-sudo apt-get install xfce4 xfce4-terminal tightvncserver dbus-x11 -y
-sudo apt-get install xfe -y
-sudo apt-get clean
+apt-get update
+apt-get install xfce4 xfce4-terminal tightvncserver dbus-x11 -y
+apt-get install xfe -y
+apt-get clean
 
 #Setup the necessary files
 mkdir ~/.vnc
@@ -140,8 +131,5 @@ echo " "
 
 echo "export DISPLAY=":1"" >> /etc/profile
 source /etc/profile
+
 vncserver-start
-sleep 15.0
-sudo sh kali.sh
-sudo sh tools.py.sh
-sudo sh uwuin.sh

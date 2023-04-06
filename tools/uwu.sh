@@ -9,3 +9,4 @@ sudo apt install neofetch
 sleep 5.0
 clear
 cd ..
+rm uwu.sh  -v
