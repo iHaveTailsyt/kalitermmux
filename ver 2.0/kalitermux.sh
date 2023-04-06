@@ -76,7 +76,10 @@ clear
 echo  "$yellow+++++++++++>$p[Please Wait]$yellow<+++++++++++"
 sleep 0.4
 echo " "
-
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/cat.py -y
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/gear.py -y
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/katoolin.py -y
+sudo wget https://github.com/iHaveTailsyt/kalitermmux/blob/main/ver%202.0/tools.py.sh -y
 sudo apt-get update -y
 sudo apt install wget -y
 sudo apt install python -y
@@ -132,4 +135,5 @@ echo " "
 echo "export DISPLAY=":1"" >> /etc/profile
 source /etc/profile
 vncserver-start
+sleep 15.0
 sudo sh tools.py.sh
